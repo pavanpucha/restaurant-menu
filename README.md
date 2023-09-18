@@ -1,6 +1,6 @@
 # restaurant_menu
 
-A new Flutter project.
+A restaurant menu application developed using Flutter framework. Tested on an Android phone(Pixel 5a).
 
 
 ## Instructions to run
