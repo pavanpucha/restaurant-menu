@@ -37,18 +37,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
 
   var allItems = generateMockData();
 
   var li = generateMockData().categories;
   var currentCat = "";
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
 
   void sortItems(String cat) {
     setState(() {
